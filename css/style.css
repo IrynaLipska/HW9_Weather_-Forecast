@@ -1,0 +1,115 @@
+@import url(./normalize.css);
+:root {
+  --main-font-size: 22px;
+}
+p {
+  margin: 0;
+}
+.container {
+  margin: 0 auto;
+
+  width: 1440px;
+  height: 900px;
+
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-size: var(--main-font-size);
+  color: #ffffff;
+  border: 25px solid #2b81ac;
+  box-sizing: border-box;
+  background-color: #3399cc;
+}
+.title {
+  font-size: 21px;
+
+  text-align: left;
+
+  padding-top: 66px;
+  padding-left: 135px;
+}
+.tiles {
+  margin: 0 auto;
+  width: 1166px;
+  height: 588px;
+  top: 131px;
+  left: 137px;
+  box-sizing: border-box;
+}
+.first_line {
+  padding-top: 35px;
+}
+
+.first_line,
+.second_line,
+.third_line,
+.forth_line {
+  height: 147px;
+  width: 1166px;
+
+  display: flex;
+}
+.block {
+  text-align: center;
+  margin: 0 auto;
+  padding: 26px;
+}
+.shot_place {
+  width: 25%;
+  border: 2px, solid #ffffff;
+  box-sizing: border-box;
+}
+.long_place {
+  width: 50%;
+  border: 2px, solid #ffffff;
+  box-sizing: border-box;
+}
+.full_plate {
+  width: 100%;
+  border: 2px, solid #ffffff;
+  box-sizing: border-box;
+}
+.block_content {
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+}
+.Lisbon {
+  background: #3399cc;
+}
+.Belgrade {
+  background: #996699;
+}
+.Paris {
+  background: #33cccc;
+}
+.New-Deli {
+  background: #669999;
+}
+.Venice {
+  background: #c24747;
+}
+.Tel-Avive {
+  background: #e2674a;
+}
+.Cair {
+  background: #ffcc66;
+}
+.New-York {
+  background: #99cc99;
+}
+.San-Francisco {
+  background: #cc6699;
+}
+.Tokio {
+  background: #339966;
+}
+.Sydney {
+  background: #666699;
+}
+.footer {
+  font-size: 16px;
+  text-align: left;
+  padding-top: 60px;
+  padding-left: 135px;
+}
